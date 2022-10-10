@@ -16,7 +16,6 @@ class MemberRepositoryTest {
 
     @Test
     @Transactional
-    @Rollback(value = false)
     public void testMember() throws Exception {
         //giver
         Member member = new Member();
